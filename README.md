@@ -192,19 +192,4 @@ Special thanks to open-source contributors and mentors who inspired this project
 If you find this project useful, please ⭐ the repository and share it!
 Your support helps me improve and build more ML projects 🚀
 
-yaml
-Copy code
-
----
-
-Would you like me to add one more section at the bottom explaining **how to deploy this project for free on Streamlit Cloud** (so anyone can open your app online)?
-
-
-
-
-
-
-
-
-
 
