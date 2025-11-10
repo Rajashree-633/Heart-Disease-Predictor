@@ -1,18 +1,18 @@
-## 🩺 Heart Disease Predictor
+ 🩺 Heart Disease Predictor
 
-### 📖 Overview  
+ 📖 Overview  
 The **Heart Disease Predictor** is a machine learning-based web application that predicts the likelihood of a person having heart disease based on medical parameters such as age, cholesterol, blood pressure, fasting blood sugar, and more.  
 
 This project uses a **Logistic Regression** model to make binary classifications (“Likely to have heart disease” or “Not likely”). It also includes a **Streamlit dashboard** that allows users to interactively input their health parameters and view predictions in real time.
 
----
 
-### 💡 Motivation  
+
+ 💡 Motivation  
 Heart disease remains one of the leading causes of death worldwide. Early detection can help in preventive care. This project demonstrates how **machine learning** can assist in early diagnosis and risk assessment.
 
----
 
-### ⚙️ Tech Stack  
+
+ ⚙️ Tech Stack  
 - **Python 3.10+**  
 - **NumPy** – Numerical computation  
 - **Pandas** – Data cleaning and analysis  
@@ -20,9 +20,9 @@ Heart disease remains one of the leading causes of death worldwide. Early detect
 - **Joblib / Pickle** – Saving and loading models  
 - **Streamlit** – Interactive user interface (frontend)
 
----
 
-### 📂 Project Structure  
+
+ 📂 Project Structure  
 Heart-Disease-Predictor/
 │
 ├── HeartDiseaseTrain-Test.csv # Dataset
@@ -33,12 +33,12 @@ Heart-Disease-Predictor/
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
 
-yaml
-Copy code
 
----
 
-### 🧠 Features  
+
+
+
+🧠 Features  
 ✅ Reads and preprocesses dataset automatically  
 ✅ Handles categorical encoding and scaling  
 ✅ Trains and evaluates a logistic regression model  
@@ -47,9 +47,9 @@ Copy code
 ✅ Interactive Streamlit UI for real-time predictions  
 ✅ Clean and reproducible workflow  
 
----
 
-### 📊 Input Parameters  
+
+ 📊 Input Parameters  
 The model uses the following key health indicators:
 
 | Feature | Description | Example Values |
@@ -68,11 +68,11 @@ The model uses the following key health indicators:
 | **ca** | Number of major vessels (0–3) | 0 |
 | **thal** | Thalassemia (1 = normal; 2 = fixed defect; 3 = reversible defect) | 2 |
 
----
 
-### 🚀 How to Run the Project Locally  
 
-#### 1️⃣ Clone the repository  
+ 🚀 How to Run the Project Locally  
+
+ 1️⃣ Clone the repository  
 ```bash
 git clone https://github.com/<your-username>/Heart-Disease-Predictor.git
 2️⃣ Navigate to the project directory
